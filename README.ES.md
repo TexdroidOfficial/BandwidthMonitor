@@ -21,7 +21,7 @@ El script inicia una interfaz gráfica de usuario (GUI) construida con `customtk
 3. Ejecución del script: Una vez que estés en el directorio correcto, ejecuta el script desde la línea de comandos usando el siguiente comando:
 
    ```bash
-   python bandwidth_monitor.py
+   python bandwidthMonitor.py
    ```
 5. Monitoreo: El script primero abrirá una ventana de GUI construida con `customtkinter`. Cierra la ventana de la GUI para iniciar el monitoreo de la red. El script monitoreará la red durante 15 segundos (o la duración especificada) usando `psutil` y luego mostrará los resultados en la terminal.
 
