@@ -32,4 +32,4 @@ The script initiates a GUI built with `customtkinter` upon execution. Once the G
 This project is licensed under the [MIT License](LICENSE).
 
 ##
-Made with ❤️ by Textdroid
+Made with ❤️ by Texdroid
