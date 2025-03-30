@@ -21,7 +21,7 @@ The script initiates a GUI built with `customtkinter` upon execution. Once the G
 4. Script execution: Once you are in the correct directory, execute the script from the command line using the following command:
 
    ```bash
-    python bandwidth_monitor.py
+    python bandwidthMonitor.py
     ```
 5. Monitoring: The script will first open a GUI window built with `customtkinter`. Close the GUI window to start the network monitoring. The script will monitor the network for 15 seconds (or the specified duration) using `psutil` and then display the results in the terminal.
 
