@@ -13,15 +13,17 @@ El script inicia una interfaz gráfica de usuario (GUI) construida con `customtk
 ## Cómo usar 🚀
 
 1. **Requisitos Previos:** Asegúrate de tener Python y las bibliotecas `customtkinter` y `psutil` instaladas en tu sistema. Si estas bibliotecas no están instaladas, instálalas usando pip:
+
    ```bash
    pip install customtkinter psutil
    ```
 2. Navega al directorio del script: Abre la línea de comandos o la terminal y navega al directorio donde se encuentra el archivo del script. Puedes usar el comando `cd` (cambiar directorio) para esto. Por ejemplo, si el script está en la carpeta "MisScripts", usarías: `cd MisScripts`.
 3. Ejecución del script: Una vez que estés en el directorio correcto, ejecuta el script desde la línea de comandos usando el siguiente comando:
+
    ```bash
    python bandwidth_monitor.py
    ```
-4. Monitoreo: El script primero abrirá una ventana de GUI construida con `customtkinter`. Cierra la ventana de la GUI para iniciar el monitoreo de la red. El script monitoreará la red durante 15 segundos (o la duración especificada) usando `psutil` y luego mostrará los resultados en la terminal.
+5. Monitoreo: El script primero abrirá una ventana de GUI construida con `customtkinter`. Cierra la ventana de la GUI para iniciar el monitoreo de la red. El script monitoreará la red durante 15 segundos (o la duración especificada) usando `psutil` y luego mostrará los resultados en la terminal.
 
 ## Screenshots 📸
 
